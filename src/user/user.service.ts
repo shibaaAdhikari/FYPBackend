@@ -12,7 +12,12 @@ export class UserService{
     username:"User2",
     password:"admin2",
     email:"admin2@gmail.com"
- }
+ },
+ {
+   username:"User3",
+   password:"admin3",
+   email:"admin3@gmail.com"
+}
 ]
 
 getUserByUserName(userName:string):User{
